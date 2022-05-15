@@ -52,6 +52,9 @@
         justify-content: flex-start;
         font-size: var(--font-size-18);
         line-height: var(--line-height-1_222);
+         justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     &__socials-item:not(:last-child) {
