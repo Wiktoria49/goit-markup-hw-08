@@ -2663,9 +2663,7 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   flex-grow: 1;
 }
 
-.mobile__item:not(:last-child) {
-  margin-bottom: 36px;
-}
+
 
 .mobile__contact {
   display: flex;
@@ -2678,7 +2676,7 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   line-height: var(--line-height-1_172);
   letter-spacing: var(--letter-spacing-002em);
   color: var(--secondary-color);
-  margin-bottom: 32px;
+
 }
 
 .mobile__mailto {
@@ -2687,7 +2685,6 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   line-height: var(--line-height-1_172);
   letter-spacing: var(--letter-spacing-002em);
   color: var(--main-color);
-  margin-bottom: 64px;
 }
 
 .mobile__socials {
