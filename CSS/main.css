@@ -2569,6 +2569,7 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
 @media screen and (min-width: 1200px) {
   .newsletter__wrapper {
     display: flex;
+    flex-direction: column;
   }
 
   .newsletter__text {
@@ -2657,7 +2658,7 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
 .mobile__nav {
   font-size: 40px;
   margin-top: 8px;
-  margin-bottom: 300px;
+  flex-grow: 1;
 }
 
 .mobile__item:not(:last-child) {
