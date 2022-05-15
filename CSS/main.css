@@ -2744,7 +2744,7 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   width: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 796px) {
   .mobile-open-btn {
     display: none;
   }
