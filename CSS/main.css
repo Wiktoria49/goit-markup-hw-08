@@ -2643,6 +2643,8 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
 }
 
 .mobile {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -2652,8 +2654,6 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   padding: 40px;
   background-color: white;
   transition: var(--transition-cubic-bezier-backdrop-750ms);
-  display: flex;
-  flex-direction: column;
 }
 
 .mobile__nav {
