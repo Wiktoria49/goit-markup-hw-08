@@ -2652,14 +2652,15 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
   padding: 40px;
   background-color: white;
   transition: var(--transition-cubic-bezier-backdrop-750ms);
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile__nav {
   font-size: 40px;
   margin-top: 8px;
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .mobile__item:not(:last-child) {
