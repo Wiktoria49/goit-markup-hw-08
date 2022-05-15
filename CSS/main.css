@@ -2377,7 +2377,6 @@ img {
   justify-content: flex-start;
   font-size: var(--font-size-18);
   line-height: var(--line-height-1_222);
-  position: relative;
 }
 
 .mobile__socials-item:not(:last-child) {
@@ -2387,24 +2386,10 @@ img {
 
 .mobile__socials-item:not(:first-child) {
   padding-left: 10px;
-  content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: translateX(-10px);
 }
 
 .mobile__socials-link {
   color: var(--secondary-color);
-  text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.223;
-    letter-spacing: 0.02em;
-    position: relative;
 }
 
 .mobile-close-btn {
