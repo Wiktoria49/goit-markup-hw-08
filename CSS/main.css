@@ -2569,7 +2569,6 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
 @media screen and (min-width: 1200px) {
   .newsletter__wrapper {
     display: flex;
-    flex-direction: column;
   }
 
   .newsletter__text {
@@ -2642,7 +2641,11 @@ screen and (min-width: 1200px) and (min-resolition: 2dppx) and (min-width: 768px
     fill: var(--ideal-white-color);
   }
 }
-
+@media screen and (max-width: 767px) {
+  .mobile {
+    display: flex;
+      flex-direction: column;
+  }
 .mobile {
   position: fixed;
   z-index: 10;
