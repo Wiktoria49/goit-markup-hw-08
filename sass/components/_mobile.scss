@@ -1,7 +1,6 @@
-
 .mobile {
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,11 +12,12 @@
     flex-direction: column;
 
 
+
+
     &__nav {
         font-size: 40px;
         margin-top: 8px;
         flex-grow: 1;
-        
     }
 
     &__item:not(:last-child) {
@@ -87,6 +87,7 @@
     width: 11px;
     height: 11px;
 }
+
 
 
 .mobile-open-btn {
